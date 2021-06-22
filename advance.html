@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=decice-with, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/88d9d0f990.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="C:\Users\PC\Documents\CS50W2020\search\search\google-logo.png" type="image/png">
+    </head>
+    <body>
+        
+        <nav class="navbar" id="adiv0">
+            <span class="navbar-brand mb-1 h1">
+                <img src="C:\Users\PC\Documents\CS50W2020\search\search\googlelogo_color_272x92dp.png" alt="Google" id="adimg0">
+            </span>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Ir a Búsqueda en Google</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="adiv1">
+            <nav class="navbar">
+                <span class="navbar-brand mb-0 h1">
+                    <label id="label0">Búsqueda Avanzada</label>
+                </span>
+            </nav>
+        </div>
+        
+        <hr>
+
+        <div id="adiv2">
+            <span id="span2">Mostrar páginas que contengan...</span>
+            <label class="col-sm-3"></label>
+            <label class="col-sm-4 col-form-lable" id="header-description">Para hacer esto en el cuadro de búsqueda.</label>
+
+            <form action="https://google.com/search">
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-lable" id="title-label">todas estas palabras:</label>
+                    <div class="col-sm-3">
+                        <input class="form-control form-control-sm" autofocus="autofocus" name="as_q" type="text">
+                    </div>
+                        <label class="col-sm-4 col-form-lable" id="description-label">Ingresa las palabras importantes: Terrier ratonero tricolor .</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-lable" id="title-label">esta palabra o frase exactas:</label>
+                    <div class="col-sm-3">
+                        <input class="form-control form-control-sm" name="as_epq" type="text">
+                    </div>
+                    <label class="col-sm-4 col-form-lable" id="description-label">Ingresa las palabras exactas entre comillas: "Terrier ratonero" .</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-lable" id="title-label">cualquiera de estas palabras:</label>
+                    <div class="col-sm-3">
+                        <input class="form-control form-control-sm" name="as_oq" type="text">
+                    </div>
+                    <label class="col-sm-4 col-form-lable" id="description-label">Ingresa OR entre las palabras que desees: En miniatura OR estándar .</label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-lable" id="title-label">ninguna de estas palabras:</label>
+                    <div class="col-sm-3">
+                        <input class="form-control form-control-sm"  name="as_eq" type="text">
+                    </div>
+                    <label class="col-sm-4 col-form-lable" id="description-label">Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell" </label>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-lable" id="title-label">números del:</label>
+                    <div class="col-sm-1">
+                        <input class="form-control form-control-sm"  name="as_nlo" type="text">
+                    </div>
+                    <label class="col-sm-1 col-form-lable">al</label>
+                    <div class="col-sm-1">
+                        <input class="form-control form-control-sm"  name="as_nhi" type="text">
+                    </div>
+                    <label class="col-sm-4 col-form-lable" id="description-label">Ingresa dos puntos entre los números y agrega una unidad de medida: 10..35 lb, $300..$500, 2010..2011. </label>
+                </div>
+
+                <hr>
+
+                <center>
+                    <input type="submit" class="btn btn-primary" data-toggle="button" id="adbtn" value="Busqueda Avanzada">
+                </center>
+            </form>
+        </div>
+
+    </body>
+</html>

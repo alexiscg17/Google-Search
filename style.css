@@ -1,0 +1,142 @@
+ body{
+     font-family: arial,sans-serif;
+ }
+
+ .img0{
+     width: 786px;
+     height: 276px;
+     padding-left: 500px;
+     padding-top: 110px;
+     object-fit: contain;
+     object-position: center bottom;
+ }
+
+ .div0{
+     width: 1000px;
+     padding-left: 200px;
+     float: center;
+ }
+
+ .search{
+     border-top-right-radius: 25px;
+     border-bottom-right-radius: 25px;
+     border: 1px solid #d0cfcf;
+     border-left: 1px solid white;
+     border-top: 1px solid #d0cfcf;
+     width: 548px;
+     height: 40px;
+ }
+
+ #basic-addon1, #basic-addon2{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: 0.1px solid white;
+    background-color: white;
+    width: 42px;
+    height: 40px;
+
+ }
+
+ input:hover{
+     box-shadow: 0 0 11px rgba(33,33,33,.2);
+ }
+ .submitbtn:hover{
+     border: 1px solid #bbb4b4;
+ }
+
+ input:focus{
+     outline: none;
+ }
+
+ .form0{
+     padding-top: 38px;
+ }
+
+ .srchicon{
+     color: #c1b8b8
+ }
+
+ .submitbtn{
+     border: 0.1px solid white;
+     border-radius: 4px;
+     color: #5a5959;
+     font-size: 14px;
+     margin: 11px 4px;
+     line-height: 27px;
+     padding: 0 16px;
+     height: 36px;
+     color: #5f6368;
+     background-color: #f2f2f2;
+     min-width: 54px;
+     text-align: center;
+     cursor: pointer;
+     user-select: none;
+}
+
+.div1{
+    padding-top: 20px;
+}
+.form1{
+    padding-top: 20px;
+}
+#adimg0{
+    width: 74px;
+    height: 24 px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#adiv0{
+    background-color: white;
+}
+#label0{
+    color: #d93025;
+}
+
+#adiv1{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#adiv2{
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#span2{
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    margin-right: 60px;
+}
+.form-group {
+    margin-top: 10px;
+}
+
+#description-label{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#title-label{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+#header-description{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
